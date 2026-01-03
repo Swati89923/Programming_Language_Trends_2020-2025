@@ -47,20 +47,23 @@ It is suitable for:
 - Render (Deployment)  
 
 ---
+
+🌐 **Live Demo (Render Deployment):**  
+https://programming-language-trend.onrender.com/
 ## How to Run Locally
 
 ### Step 1: Clone the repository
 ```bash
 git clone https://github.com/Swati89923/Programming_Language_Trends_2020-2025.git
 
-#### tep 2: Install Flask
+tep 2: Install Flask
 pip install flask
 
-### Step 3: Start the application
+Step 3: Start the application
 python app.py
 
-### Step 4: Open in browser
+Step 4: Open in browser
 http://127.0.0.1:5000
+---
 
-🌐 **Live Demo (Render Deployment):**  
-https://programming-language-trend.onrender.com/
+
