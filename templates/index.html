@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Language Popularity Trends</title>
+  <link rel="stylesheet" href="/static/styles.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <h2>Language Popularity Trends (2020–2025)</h2>
+
+  <!-- Toggle Buttons -->
+  <div style="margin-bottom: 20px;">
+    <button onclick="loadChart(true)">With Python</button>
+    <button onclick="loadChart(false)">Without Python</button>
+  </div>
+
+  <!-- Chart Container -->
+  <div class="chart-container">
+    <canvas id="myChart" width="900" height="450"></canvas>
+  </div>
+
+  <!-- JS -->
+  <script src="/static/script.js"></script>
+</body>
+</html>
